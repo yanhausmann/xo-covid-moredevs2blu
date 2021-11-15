@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+}
+main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    width: 400px;
+    height: 790px;
+}
+.container img {
+    display: flex;
+    width: 140%;
+    margin-left: -20%;
+
+}
+#infos {
+    background-color: rgb(126, 210, 248);
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    width: 365px;
+    height: 79px;
+    margin-top: 89%;
+    margin-left: -45%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#atendimento {
+    background-color: rgb(126, 210, 248);
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    width: 365px;
+    height: 79px;
+    margin-top: 109%;
+    margin-left: -45%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#boletim {
+    background-color: rgb(126, 210, 248);
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    width: 365px;
+    height: 79px;
+    margin-top: 129%;
+    margin-left: -45%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#dicas {
+    background-color: rgb(126, 210, 248);
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    width: 365px;
+    height: 79px;
+    margin-top: 149%;
+    margin-left: -45%;
+    border-radius: 0 0 35px 35px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#infos:hover {
+    background-color: rgb(35, 94, 170);
+    transition: .5s;
+}
+#atendimento:hover {
+    background-color: rgb(35, 94, 170);
+    transition: .5s;
+}
+#boletim:hover {
+    background-color: rgb(35, 94, 170);
+    transition: .5s;
+}
+#dicas:hover {
+    background-color: rgb(35, 94, 170);
+    transition: .5s;
+}
+#pesquisa {
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    width: 272px;
+    height: 33px;
+    margin-top: 73%;
+    margin-left: -36%;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.644);
+}
+#entrar {
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    width: 31px;
+    height: 31px;
+    margin-top: 74%;
+    margin-left: 25%;
+    border-radius: 20px;
+    background-color: rgb(251, 251, 251);
+    border-color: rgb(173, 173, 173);
+}
+#config {
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    width: 32px;
+    height: 32px;
+    margin-top: -8%;
+    margin-left: 34%;
+}
